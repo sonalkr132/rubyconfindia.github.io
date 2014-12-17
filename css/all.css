@@ -7106,36 +7106,36 @@ button.close {
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 /* Global Styles */
-/* line 10, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 10, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 html,
 body {
   height: 100%; }
 
-/* line 15, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 15, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 body {
   padding-top: 50px;
   /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */ }
 
-/* line 19, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 19, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 .img-portfolio {
   margin-bottom: 30px; }
 
-/* line 23, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 23, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 .img-hover:hover {
   opacity: 0.8; }
 
 /* Home Page Carousel */
-/* line 29, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 29, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 header.carousel {
   height: 50%; }
 
-/* line 33, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 33, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
   height: 100%; }
 
-/* line 39, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 39, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 header.carousel .fill {
   width: 100%;
   height: 100%;
@@ -7143,70 +7143,135 @@ header.carousel .fill {
   background-size: cover; }
 
 /* 404 Page Styles */
-/* line 48, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 48, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 .error-404 {
   font-size: 100px; }
 
 /* Pricing Page Styles */
-/* line 54, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 54, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 .price {
   display: block;
   font-size: 50px;
   line-height: 50px; }
 
-/* line 60, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 60, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 .price sup {
   top: -20px;
   left: 2px;
   font-size: 20px; }
 
-/* line 66, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 66, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 .period {
   display: block;
   font-style: italic; }
 
 /* Footer Styles */
-/* line 73, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+/* line 73, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
 footer {
   margin: 50px 0; }
 
 /* Responsive Styles */
 @media (max-width: 991px) {
-  /* line 80, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+  /* line 80, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
   .customer-img,
   .img-related {
     margin-bottom: 30px; } }
 @media (max-width: 767px) {
-  /* line 87, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+  /* line 87, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
   .img-portfolio {
     margin-bottom: 15px; }
 
-  /* line 91, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/vendor/_theme.css */
+  /* line 91, /Users/niranjan/Work/ruby/rci/betaweb/source/css/vendor/_theme.css */
   header.carousel .carousel {
     height: 70%; } }
-/* line 9, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/all.css.scss */
+/* line 9, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
 header.banner {
   height: 50%; }
 
-/* line 13, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/all.css.scss */
+/* line 13, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
 header.banner .fill {
   width: 100%;
   height: 100%;
-  background-image: url("/img/background.jpg");
+  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.1)), url("/img/background.jpg");
   background-position: center;
   background-size: cover; }
 
-/* line 21, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/all.css.scss */
+/* line 21, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
 body {
+  background-color: #ffffff;
   font-family: sans-serif;
   font-size: 1.75em; }
 
-/* line 26, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/all.css.scss */
+/* line 27, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
 .push-down {
   margin-top: 20px; }
 
-/* line 30, /Users/niranjan/Work/ruby/rci/achamian.github.io/source/css/all.css.scss */
+/* line 31, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
 footer {
   margin: 10px auto 0px;
+  padding: 20px 0 10px 0;
   background: #222222;
   color: #9d9d9d; }
+
+/* line 38, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.padding-down {
+  padding-bottom: 15px; }
+
+/* line 42, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.link {
+  color: #BD4051; }
+
+/* line 46, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.link:hover {
+  text-decoration: none;
+  color: #008080; }
+
+/* line 51, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.navbar-inverse .navbar-nav li a:hover {
+  color: #BD4051; }
+
+/* line 55, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.navbar-inverse .navbar-brand:hover {
+  color: #BD4051; }
+
+/* line 59, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.btn {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  overflow: auto; }
+
+/* line 66, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.btn-primary, .btn-success {
+  background-color: #7B3044;
+  box-shadow: 3px 3px 2px #888888;
+  border: 0; }
+
+/* line 72, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.btn-primary:hover, .btn-success:hover {
+  background-color: #008080;
+  box-shadow: 4px 4px 3px #222222; }
+
+/* line 77, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.thumbnail {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+/* line 81, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.thumbnail .img-responsive {
+  box-shadow: 0 0 4px 2px #444444; }
+
+/* line 85, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.thumbnail .fa {
+  color: #7B3044;
+  font-size: 26px !important; }
+
+/* line 90, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.thumbnail .fa:hover {
+  color: #008080; }
+
+/* line 94, /Users/niranjan/Work/ruby/rci/betaweb/source/css/all.css.scss */
+.thumbnail .caption .h4 {
+  background-color: #BD4051;
+  border-radius: 20px;
+  color: #ffffff;
+  line-height: 150%; }
